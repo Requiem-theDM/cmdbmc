@@ -4,9 +4,8 @@
         "fallback": "Sapping"
       },
     "max_level": 2,
-    "supported_items": "#minecraft:enchantable/sharp_weapon",
-    "primary_items": "#minecraft:enchantable/sword",
-    "exclusive_set": "hm:lethargy",
+    "supported_items": "#hm:enchantable/weapons",
+    "exclusive_set": "#hm:exclusive_set/status_effects",
     "slots": ["mainhand"],
     "weight": 4,
     "min_cost": {

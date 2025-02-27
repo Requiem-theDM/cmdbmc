@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "X": "minecraft:leather",
+      "w": "#wool"
+    },
+    "pattern": [
+      "  X",
+      "XwX",
+      "XXX"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:leather_horse_armor"
+    }
+}

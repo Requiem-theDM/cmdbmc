@@ -4,9 +4,8 @@
         "fallback": "Venemous"
       },
     "max_level": 4,
-    "supported_items": "#minecraft:enchantable/sharp_weapon",
-    "primary_items": "#minecraft:enchantable/sword",
-    "exclusive_set": "fire_aspect",
+    "supported_items": "#hm:enchantable/weapons",
+    "exclusive_set": "#hm:exclusive_set/damage_over_time",
     "slots": ["mainhand"],
     "weight": 2,
     "min_cost": {

@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "echantment.hm.far_strike",
+        "fallback": "Far Strike"
+      },
+    "effects": {
+      "minecraft:attributes": [
+        {
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.5,
+              "per_level_above_first": 0.5
+            },
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "hm:enchantment.far_strike",
+            "operation": "add_value"
+          }
+      ]
+    },
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#hm:enchantable/weapons",
+    "weight": 5
+  }
