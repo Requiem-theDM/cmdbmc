@@ -23,40 +23,15 @@
         }
       }
     ],
-    "minecraft:post_attack": [
+    "minecraft:attributes": [
       {
-        "affected": "victim",
-        "effect": {
-          "type": "minecraft:apply_mob_effect",
-          "max_amplifier": 3.0,
-          "max_duration": {
-            "type": "minecraft:linear",
-            "base": 1.5,
-            "per_level_above_first": 0.5
-          },
-          "min_amplifier": 3.0,
-          "min_duration": 1.5,
-          "to_apply": "minecraft:slowness"
+        "amount": {
+          "type": "minecraft:levels_squared",
+          "added": 1.0
         },
-        "enchanted": "attacker",
-        "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type": "#arthropod"
-              }
-            },
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "is_direct": true
-              }
-            }
-          ]
-        }
+        "attribute": "minecraft:mining_efficiency",
+        "id": "minecraft:enchantment.efficiency",
+        "operation": "add_value"
       }
     ]
   },
