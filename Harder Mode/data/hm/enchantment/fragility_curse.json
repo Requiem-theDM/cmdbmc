@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.hm.fragility_curse",
+      "fallback": "Curse of Fragility"
+    },
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 1,
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "effects": {
+      "minecraft:item_damage": [
+        {
+          "effect": {
+            "type": "minecraft:multiply",
+            "factor": 2
+          }
+        }
+      ]
+    }
+  }

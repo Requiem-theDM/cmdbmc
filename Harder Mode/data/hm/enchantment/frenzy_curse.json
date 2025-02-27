@@ -1,0 +1,57 @@
+{
+    "anvil_cost": 4,
+    "description": {
+      "translate": "enchantment.hm.frenzy_curse",
+      "fallback": "Curse of Frenzy"
+    },
+    "supported_items": "#hm:enchantable/armor",
+    "weight": 1,
+    "max_cost": {
+        "base": 32,
+        "per_level_above_first": 12
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 12,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "armor"
+    ],
+    "effects": {
+      "minecraft:armor_effectiveness": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": -0.045,
+              "per_level_above_first": -0.035
+            }
+          }
+        }
+      ],
+      "minecraft:attributes": [
+        {
+          "id": "hm:enchantment.frenzy_curse_damage",
+          "attribute": "minecraft:attack_damage",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.075,
+            "per_level_above_first": 0.065
+          },
+          "operation": "add_multiplied_total"
+        },
+        {
+          "id": "hm:enchantment.frenzy_curse_armor_penalty",
+          "attribute": "minecraft:armor",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -0.1,
+            "per_level_above_first": -0.075
+          },
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  }

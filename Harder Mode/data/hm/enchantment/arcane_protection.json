@@ -1,0 +1,50 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.hm.arcane_protection",
+        "fallback": "Arcane Protection"
+    },
+    "effects": {
+      "minecraft:damage_protection": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 2.0,
+              "per_level_above_first": 2.0
+            }
+          },
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "tags": [
+                {
+                  "expected": true,
+                  "id": "hm:arcane_protection_affected"
+                },
+                {
+                  "expected": false,
+                  "id": "minecraft:bypasses_invulnerability"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 13,
+      "per_level_above_first": 8
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 8
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#hm:enchantable/armor",
+    "weight": 2
+  }

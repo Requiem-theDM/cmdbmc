@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+      "minecraft:binding_curse",
+      "minecraft:vanishing_curse",
+      "hm:fragility_curse",
+      "hm:frenzy_curse"
+    ]
+  }
