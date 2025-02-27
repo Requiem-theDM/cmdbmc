@@ -44,6 +44,6 @@
   "slots": [
     "armor"
   ],
-  "supported_items": "#minecraft:enchantable/armor",
+  "supported_items": "#hm:enchantable/armor",
   "weight": 5
 }
