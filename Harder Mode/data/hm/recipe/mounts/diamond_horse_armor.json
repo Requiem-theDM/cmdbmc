@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "X": "minecraft:gold_ingot",
+      "w": "#wool"
+    },
+    "pattern": [
+      "  X",
+      "XwX",
+      "XXX"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:diamond_horse_armor",
+      "components": {
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "hm:diamond_horse_armor",
+              "amount": 11,
+              "operation": "add_value",
+              "slot": "body"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "hm:diamond_horse_armor_toughness",
+              "amount": 2,
+              "operation": "add_value",
+              "slot": "body"
+            }
+          ]
+        }
+      }
+    }
+  }
