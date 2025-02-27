@@ -1,0 +1,17 @@
+{
+   "criteria": {
+    "has_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "hm:items/stackable_potions/main"
+  }
+}

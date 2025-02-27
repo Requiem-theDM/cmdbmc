@@ -1,0 +1,39 @@
+{
+    "criteria": {
+    "has_compass_mainhand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:compass"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "has_compass_offhand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:compass"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+        "has_compass_mainhand",
+        "has_compass_offhand"
+    ]
+  ],
+    "rewards": {
+        "function": "hm:items/compass/main"
+    }
+}

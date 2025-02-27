@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "sleeping": {
+            "trigger": "minecraft:slept_in_bed"
+        },
+        "tick": {
+            "trigger": "minecraft:location"
+        }
+    },
+    "rewards": {
+        "function": "hm:sleep_and_time_cycle/main"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "scroll": "fireball"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "hm:items/scrolls/scroll_of_fire"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "description": {
+        "translate": "echantment.hm.lethargy",
+        "fallback": "Lethargy"
+      },
+    "max_level": 2,
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "primary_items": "#minecraft:enchantable/sword",
+    "exclusive_set": "hm:sapping",
+    "slots": ["mainhand"],
+    "weight": 4,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 11
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 11
+    },
+    "anvil_cost": 4,
+    "effects": {
+        "minecraft:post_attack": [
+        {
+
+            "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate":  {}
+            },
+            "enchanted": "attacker",
+            "affected": "victim",
+            "effect": {
+            "type": "minecraft:apply_mob_effect",
+            "to_apply": "minecraft:slowness",
+            "min_duration": {
+                "type": "minecraft:linear",
+                "base": 3,
+                "per_level_above_first": 1
+            },
+            "max_duration": {
+                "type": "minecraft:linear",
+                "base": 5,
+                "per_level_above_first": 1
+            },
+            "min_amplifier": {
+                "type": "minecraft:linear",
+                "base": 0,
+                "per_level_above_first": 1
+            },
+            "max_amplifier": {
+                "type": "minecraft:linear",
+                "base": 0,
+                "per_level_above_first": 1
+            }
+            }
+        }
+        ]
+  }
+}
