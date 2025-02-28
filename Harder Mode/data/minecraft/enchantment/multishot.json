@@ -41,6 +41,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/crossbow",
+  "supported_items": "#hm:enchantable/weapons_ranged",
   "weight": 2
 }

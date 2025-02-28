@@ -1,19 +1,9 @@
 {
   "anvil_cost": 8,
   "description": {
-    "translate": "enchantment.minecraft.silk_touch"
+    "translate": "enchantment.hm.scorching_touch",
+    "fallback": "Scorching Touch"
   },
-  "effects": {
-    "minecraft:block_experience": [
-      {
-        "effect": {
-          "type": "minecraft:set",
-          "value": 0.0
-        }
-      }
-    ]
-  },
-  "exclusive_set": "#minecraft:exclusive_set/mining",
   "max_cost": {
     "base": 65,
     "per_level_above_first": 0
@@ -26,6 +16,7 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set": ["silk_touch"],
   "supported_items": "#minecraft:enchantable/mining_loot",
   "weight": 1
 }

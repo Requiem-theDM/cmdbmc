@@ -1,14 +1,17 @@
 {
     "replace": true,
     "values": [
-      "minecraft:binding_curse",
-      "minecraft:vanishing_curse",
+      "#curse",
       "minecraft:swift_sneak",
       "minecraft:soul_speed",
-      "minecraft:frost_walker",
       "minecraft:mending",
       "minecraft:wind_burst",
       "minecraft:protection",
-      "minecraft:sharpness"
+      "minecraft:sharpness",
+      "minecraft:power",
+      "hm:sages_favor",
+      "minecraft:fortune",
+      "minecraft:silk_touch",
+      "hm:scorching_touch"
     ]
   }

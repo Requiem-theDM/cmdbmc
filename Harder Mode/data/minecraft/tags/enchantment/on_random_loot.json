@@ -1,5 +1,5 @@
 {
-    "values": [
+  "values": [
       "#minecraft:non_treasure",
       "#curse",
       "minecraft:mending",
@@ -10,5 +10,5 @@
       "minecraft:fortune",
       "minecraft:silk_touch",
       "hm:scorching_touch"
-    ]
-  }
+  ]
+}

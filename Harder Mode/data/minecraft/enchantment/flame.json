@@ -1,20 +1,14 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.minecraft.infinity"
+    "translate": "enchantment.minecraft.flame"
   },
   "effects": {
-    "minecraft:ammo_use": [
+    "minecraft:projectile_spawned": [
       {
         "effect": {
-          "type": "minecraft:set",
-          "value": 0.0
-        },
-        "requirements": {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": "minecraft:arrow"
-          }
+          "type": "minecraft:ignite",
+          "duration": 100.0
         }
       }
     ]
@@ -32,5 +26,5 @@
     "mainhand"
   ],
   "supported_items": "#hm:enchantable/weapons_ranged",
-  "weight": 1
+  "weight": 2
 }

@@ -1,0 +1,61 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "echantment.hm.lancer",
+        "fallback": "Lancer"
+      },
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 2.5,
+              "per_level_above_first": 2.5
+            }
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "vehicle": {
+                "type": [
+                  "minecraft:horse",
+                  "minecraft:pig",
+                  "minecraft:donkey",
+                  "minecraft:mule",
+                  "minecraft:zombie_horse",
+                  "minecraft:skeleton_horse",
+                  "minecraft:strider"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "minecraft:attributes": [
+        {
+            "amount": 1,
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "hm:enchantment.lancer",
+            "operation": "add_value"
+          }
+      ]
+    },
+    "exclusive_set": "#hm:exclusive_set/damage",
+    "max_cost": {
+      "base": 25,
+      "per_level_above_first": 8
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 8
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#hm:enchantable/weapons",
+    "weight": 5
+  }

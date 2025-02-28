@@ -1,0 +1,10 @@
+{
+    "values": [
+    "#hm:enchantable/weapons",
+    "#hm:enchantable/weapons_ranged",
+    "#minecraft:axes",
+    "#minecraft:hoes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels"
+  ]
+}
