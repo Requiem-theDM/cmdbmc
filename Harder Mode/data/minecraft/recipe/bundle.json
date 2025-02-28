@@ -17,7 +17,7 @@
           "slot": "chest",
           "equip_sound": "item.armor.equip_leather",
           "damage_on_hurt": true,
-          "asset_id": "hm:bundle_pack"
+          "asset_id": "hm:bundle"
         },
         "minecraft:attribute_modifiers": {
           "modifiers": [
