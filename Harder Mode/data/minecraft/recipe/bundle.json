@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:leather",
+    "-": "minecraft:string"
+  },
+  "pattern": [
+    "-",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bundle",
+    "components": {
+        "minecraft:equippable": {
+          "slot": "chest",
+          "equip_sound": "item.armor.equip_leather",
+          "damage_on_hurt": true,
+          "asset_id": "hm:bundle_pack"
+        },
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+                {
+                  "type": "minecraft:armor",
+                  "id": "hm:bundle_armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+          ]
+        }
+    }
+  }
+}

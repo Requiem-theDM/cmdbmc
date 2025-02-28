@@ -1,10 +1,13 @@
 {
    "criteria": {
-    "has_potion": {
+    "has_unstackable_potion": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:potion"
+            "items": "minecraft:potion",
+            "components": {
+              "max_stack_size": 1
+            }
           }
         ]
       },
