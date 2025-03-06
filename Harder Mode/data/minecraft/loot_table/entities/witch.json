@@ -266,7 +266,7 @@
             {
               "function": "minecraft:exploration_map",
               "destination": "minecraft:witch_hut",
-              "decoration": "red_x",
+              "decoration": "minecraft:swamp_hut",
               "zoom": 3,
               "skip_existing_chunks": false
             },

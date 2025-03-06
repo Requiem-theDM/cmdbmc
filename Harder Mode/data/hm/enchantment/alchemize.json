@@ -7,7 +7,6 @@
     "effects": {
         "minecraft:post_attack": [
         {
-
           "requirements": {
             "condition": "minecraft:random_chance",
             "chance": {
