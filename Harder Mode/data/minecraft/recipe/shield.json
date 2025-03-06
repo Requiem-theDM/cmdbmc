@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "W": "#minecraft:logs",
+      "o": "minecraft:iron_ingot"
+    },
+    "pattern": [
+      "ooo",
+      "oWo",
+      "ooo"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:shield"
+    }
+  }
