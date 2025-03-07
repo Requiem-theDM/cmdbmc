@@ -1,0 +1,185 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "minecraft:alternatives",
+                "children": [
+                    {
+                        "type": "minecraft:item",
+                        "functions": [
+                            {
+                                "function": "minecraft:enchant_randomly",
+                                "options": "#minecraft:on_random_loot"
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:attribute_modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "id": "hm:iron_horse_armor",
+                                            "amount": 7,
+                                            "operation": "add_value",
+                                            "slot": "body"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "minecraft:iron_horse_armor",
+                        "weight": 5,
+                        "conditions": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                "effects": {
+                                    "minecraft:luck": {}
+                                }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:random_chance",
+                                "chance": 0.5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:iron_horse_armor",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:attribute_modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "id": "hm:iron_horse_armor",
+                                            "amount": 7,
+                                            "operation": "add_value",
+                                            "slot": "body"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:alternatives",
+                "children": [
+                    {
+                        "type": "minecraft:item",
+                        "functions": [
+                            {
+                                "function": "minecraft:enchant_randomly",
+                                "options": "#minecraft:on_random_loot"
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:attribute_modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "id": "hm:golden_horse_armor",
+                                            "amount": 5,
+                                            "operation": "add_value",
+                                            "slot": "body"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "name": "minecraft:golden_horse_armor",
+                        "weight": 10,
+                        "conditions": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "minecraft:luck": {}
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:random_chance",
+                                "chance": 0.5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:golden_horse_armor",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:attribute_modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "id": "hm:golden_horse_armor",
+                                            "amount": 5,
+                                            "operation": "add_value",
+                                            "slot": "body"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "weight": 10
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:alternatives",
+                "children": [
+                    {
+                        "type": "minecraft:item",
+                        "functions": [
+                            {
+                                "function": "minecraft:enchant_randomly",
+                                "options": "#minecraft:on_random_loot"
+                            }
+                        ],
+                        "name": "minecraft:leather_horse_armor",
+                        "weight": 35,
+                        "conditions": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                "effects": {
+                                    "minecraft:luck": {}
+                                }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:random_chance",
+                                "chance": 0.5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:leather_horse_armor",
+                        "weight": 35
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:saddle",
+                "weight": 50
+            }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/simple_dungeon"
+  }
