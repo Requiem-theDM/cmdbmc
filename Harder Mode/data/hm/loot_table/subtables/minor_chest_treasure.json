@@ -12,7 +12,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "hm:subtables/misc_loot",
+          "value": "hm:subtables/major_misc_loot",
           "weight": 45
         },
         {
