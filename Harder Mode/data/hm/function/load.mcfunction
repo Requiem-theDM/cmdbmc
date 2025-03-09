@@ -23,7 +23,7 @@ gamerule forgiveDeadPlayers false
 gamerule universalAnger true
 gamerule naturalRegeneration false
 gamerule doDaylightCycle false
-gamerule playersSleepingPercentage 101
+gamerule playersSleepingPercentage 0
 
 # Schedule Time Advancement for Double-Length Night
 function hm:sleep_and_time_cycle/advance_time

@@ -1,0 +1,1 @@
+execute as @r[tag=hm.sleep] run function hm:sleep_and_time_cycle/night_skipping

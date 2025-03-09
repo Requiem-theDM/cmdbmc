@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "hm:subtables/beneficial_potions",
+          "weight": 50,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "hm:subtables/supplies",
+          "weight": 50,
+          "quality": -5
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:chests/simple_dungeon"
+}
