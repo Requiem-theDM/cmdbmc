@@ -1,0 +1,1 @@
+effect give @s minecraft:weaving infinite 0 true

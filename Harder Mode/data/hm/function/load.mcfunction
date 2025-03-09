@@ -23,11 +23,14 @@ gamerule forgiveDeadPlayers false
 gamerule universalAnger true
 gamerule naturalRegeneration false
 gamerule doDaylightCycle false
-gamerule playersSleepingPercentage 0
-gamerule snowAccumulationHeight 3
+gamerule playersSleepingPercentage 101
 
 # Schedule Time Advancement for Double-Length Night
 function hm:sleep_and_time_cycle/advance_time
+
+# Schedule Other Ticking Functions
+function hm:mobs/1s_clock
+function hm:mobs/1t_clock
 
 # Display Reload Message
 execute as @a unless score @s hm.display.reload matches 0 run tellraw @s [{"text":""},{"text":"Harder Mode Enabled","color":"dark_red"},{"text":" [Click Here To Disable This Reload Message]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/execute as @s run scoreboard players set @s hm.display.reload 0"}}]

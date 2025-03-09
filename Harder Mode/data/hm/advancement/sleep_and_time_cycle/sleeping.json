@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "hm:sleep_and_time_cycle/main"
+        "function": "hm:sleep_and_time_cycle/no_night_skipping"
     }
 }

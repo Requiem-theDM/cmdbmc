@@ -46,7 +46,7 @@
               {
                 "type": "minecraft:play_sound",
                 "sound": "minecraft:block.brewing_stand.brew",
-                "volume": 0.1,
+                "volume": 0.5,
                 "pitch": 1
               }
             ]
