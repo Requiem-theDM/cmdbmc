@@ -1,11 +1,6 @@
 {
     "values": [
-      "#minecraft:enchantable/armor",
-      "minecraft:leather_horse_armor",
-      "minecraft:iron_horse_armor",
-      "minecraft:golden_horse_armor",
-      "minecraft:diamond_horse_armor",
-      "minecraft:wolf_armor",
+      "#hm:enchantable/armor",
       "minecraft:elytra",
       "#minecraft:skulls",
       "minecraft:carved_pumpkin"

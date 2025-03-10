@@ -1,0 +1,182 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "enchantment.hm.hellbound_curse",
+      "fallback": "Hellbound"
+    },
+    "supported_items": "#hm:enchantable/equippable",
+    "weight": 1,
+    "max_cost": {
+        "base": 32,
+        "per_level_above_first": 12
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 12,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "armor"
+    ],
+    "effects": {
+      "minecraft:tick": [
+        {
+            "effect": {
+                "type": "minecraft:all_of",
+                "effects": [
+                    {
+                        "type": "minecraft:apply_mob_effect",
+                        "max_duration": 1,
+                        "min_duration": 1,
+                        "max_amplifier": 0,
+                        "min_amplifier": 0,
+                        "to_apply": "minecraft:fire_resistance"
+                    },
+                    {
+                        "type": "minecraft:apply_mob_effect",
+                        "max_duration": 1,
+                        "min_duration": 1,
+                        "max_amplifier": {
+                            "type": "minecraft:linear",
+                            "base": 0,
+                            "per_level_above_first": 0.5
+                        },
+                        "min_amplifier": {
+                            "type": "minecraft:linear",
+                            "base": 0,
+                            "per_level_above_first": 0.5
+                        },
+                        "to_apply": "minecraft:strength"
+                    },
+                    {
+                        "type": "minecraft:apply_mob_effect",
+                        "max_duration": 1,
+                        "min_duration": 1,
+                        "max_amplifier": {
+                            "type": "minecraft:linear",
+                            "base": 0,
+                            "per_level_above_first": 1
+                        },
+                        "min_amplifier": {
+                            "type": "minecraft:linear",
+                            "base": 0,
+                            "per_level_above_first": 1
+                        },
+                        "to_apply": "minecraft:speed"
+                    }
+                ]
+            },
+            "requirements": {
+                "condition": "any_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "minecraft:the_nether"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biomes": [
+                                "minecraft:badlands",
+                                "minecraft:desert",
+                                "minecraft:eroded_badlands",
+                                "minecraft:savanna",
+                                "minecraft:savanna_plateau",
+                                "minecraft:warm_ocean",
+                                "minecraft:windswept_savanna",
+                                "minecraft:wooded_badlands"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "fluid": {
+                                "fluids": "#minecraft:lava"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:fire"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "effect": {
+                "type": "minecraft:all_of",
+                "effects": [
+                    {
+                        "type": "minecraft:apply_mob_effect",
+                        "max_duration": 1,
+                        "min_duration": 1,
+                        "max_amplifier": {
+                            "type": "minecraft:linear",
+                            "base": 0,
+                            "per_level_above_first": 1
+                        },
+                        "min_amplifier": {
+                            "type": "minecraft:linear",
+                            "base": 0,
+                            "per_level_above_first": 1
+                        },
+                        "to_apply": "minecraft:wither"
+                    }
+                ]
+            },
+            "requirements": {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "dimension": "minecraft:the_nether"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "biomes": [
+                                    "minecraft:badlands",
+                                    "minecraft:desert",
+                                    "minecraft:eroded_badlands",
+                                    "minecraft:savanna",
+                                    "minecraft:savanna_plateau",
+                                    "minecraft:warm_ocean",
+                                    "minecraft:windswept_savanna",
+                                    "minecraft:wooded_badlands"
+                                ]
+                            }
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "fluid": {
+                                    "fluids": "#minecraft:lava"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:fire"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+      ]
+    }
+  }
