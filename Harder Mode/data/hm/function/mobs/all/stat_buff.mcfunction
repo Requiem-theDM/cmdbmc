@@ -6,4 +6,5 @@ execute as @s[type=#hm:zombies] run function hm:mobs/zombie/stat_buff
 execute as @s[type=#hm:spiders] run function hm:mobs/spider/stat_buff
 execute as @s[type=minecraft:evoker] run function hm:mobs/evoker/stat_buff
 execute as @s[type=minecraft:witch] run function hm:mobs/witch/stat_buff
+execute as @s[type=minecraft:piglin] run function hm:mobs/piglin/stat_buff
 tag @s add hm.upgraded

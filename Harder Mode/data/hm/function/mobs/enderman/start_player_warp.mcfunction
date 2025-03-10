@@ -1,0 +1,1 @@
+execute as @p[distance=..5,gamemode=!creative,gamemode=!spectator] run function hm:mobs/enderman/player_warp

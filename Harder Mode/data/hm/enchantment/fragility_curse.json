@@ -5,6 +5,7 @@
       "fallback": "Curse of Fragility"
     },
     "supported_items": "#minecraft:enchantable/durability",
+    "exclusive_set": "minecraft:unbreaking",
     "weight": 1,
     "max_cost": {
         "base": 50,
