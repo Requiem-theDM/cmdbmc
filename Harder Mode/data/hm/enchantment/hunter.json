@@ -19,7 +19,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "#beast"
+              "type": "#hm:beast"
             }
           }
         }
