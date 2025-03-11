@@ -26,15 +26,28 @@
     "hit_block": [
       {
         "effect": {
-          "type": "minecraft:replace_block",
-          "trigger_game_event": "minecraft:block_destroy",
-          "block_state": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:cobweb"
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "hm:enchantments/bane_of_arthropods"
+            },
+            {
+              "type": "minecraft:change_item_damage",
+              "amount": 1
+            }
+          ]
+        },
+        "requirements": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:cobweb"
             }
           }
         }
+      ]
       }
     ]
   },
