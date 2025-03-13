@@ -1,2 +1,3 @@
-summon area_effect_cloud ~ ~5 ~ {Particle:{type:spore_blossom_air},Radius:3,RadiusPerTick:0,Duration:5,potion_contents:{custom_effects:[{id:"minecraft:infested",duration:20,amplifier:0,show_particles:false,show_icon:false},{id:"minecraft:poison",duration:20,amplifier:2,show_particles:true,show_icon:true}]}}
-spreadplayers ~ ~ 3 8 false @e[type=area_effect_cloud,tag=hm.insect_swarm,tag=hm.new_insect_swarm,distance=..8]
+playsound entity.silverfish.ambient hostile @a[distance=..12] ~ ~ ~ 100 0
+summon minecraft:marker ~ ~ ~ {Tags:["hm.insect_swarm"]}
+$execute as @n[type=minecraft:marker,distance=..1,tag=hm.insect_swarm] at @s run spreadplayers ~ ~ 0 16 under $(y) false @s
