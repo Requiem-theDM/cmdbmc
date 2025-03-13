@@ -26,7 +26,7 @@
           ],
           "quality": 2,
           "value": "minecraft:gameplay/fishing/treasure",
-          "weight": 5
+          "weight": 1
         },
         {
           "type": "minecraft:loot_table",
@@ -50,7 +50,7 @@
           "type": "minecraft:loot_table",
           "quality": -1,
           "value": "minecraft:gameplay/fishing/fish",
-          "weight": 75
+          "weight": 79
         }
       ],
       "rolls": 1.0
