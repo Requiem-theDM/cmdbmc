@@ -14,6 +14,7 @@ scoreboard objectives add hm.constants dummy
 scoreboard objectives add hm.display.reload dummy
 
 # Set Up Dummy Players for Math
+scoreboard players set 5 hm.constants 5
 scoreboard players set 7 hm.constants 7
 scoreboard players set 24 hm.constants 24
 scoreboard players set 1000 hm.constants 1000
