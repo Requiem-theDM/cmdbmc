@@ -1,0 +1,15 @@
+{
+   "criteria": {
+    "fishing_rod_hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:glow_squid_spawn_egg"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hm:fishing/glow_squid/caught"
+  } 
+}

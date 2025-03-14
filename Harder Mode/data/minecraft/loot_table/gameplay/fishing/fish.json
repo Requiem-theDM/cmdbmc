@@ -7,22 +7,42 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cod",
-          "weight": 60
+          "weight": 600
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:salmon",
-          "weight": 25
+          "weight": 250
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:tropical_fish",
-          "weight": 2
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:drowned_spawn_egg",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:guardian_spawn_egg",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:pufferfish",
-          "weight": 13
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:squid_spawn_egg",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_squid_spawn_egg",
+          "weight": 30
         }
       ],
       "rolls": 1.0

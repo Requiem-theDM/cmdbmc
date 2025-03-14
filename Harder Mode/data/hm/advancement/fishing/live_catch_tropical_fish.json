@@ -1,0 +1,15 @@
+{
+   "criteria": {
+    "fishing_rod_hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:tropical_fish"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hm:fishing/tropical_fish/caught"
+  } 
+}
