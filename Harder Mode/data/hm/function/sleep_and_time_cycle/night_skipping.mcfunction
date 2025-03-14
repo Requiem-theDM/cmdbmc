@@ -50,4 +50,5 @@ execute if entity @s[scores={sleep_time=..-1}] run scoreboard players add @s sle
 scoreboard objectives remove sleep_time
 
 title @a[tag=hm.sleep] actionbar {"text":"You awaken feeling rested."}
+effect give @a[tag=hm.sleep] minecraft:instant_health 1 200 true
 execute as @a[tag=hm.sleep] run tag @s remove hm.sleep

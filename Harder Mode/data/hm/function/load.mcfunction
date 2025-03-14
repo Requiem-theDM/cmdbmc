@@ -10,7 +10,10 @@ scoreboard objectives add z dummy "Z position"
 scoreboard objectives add hm.clock dummy "Mob Ability Clock"
 scoreboard objectives add hm.darkness_luck dummy "Darkness Luck"
 scoreboard objectives add hm.darkness_debuff dummy "Darkness Debuff"
+scoreboard objectives add hm.regen dummy "Regeneration Flag"
+scoreboard objectives add hm.regen_cooldown dummy "Regeneration Cooldown"
 scoreboard objectives add hm.constants dummy
+scoreboard objectives add hm.math dummy
 scoreboard objectives add hm.display.reload dummy
 
 # Set Up Dummy Players for Math
