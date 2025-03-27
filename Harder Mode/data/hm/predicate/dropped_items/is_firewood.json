@@ -1,0 +1,261 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_oak_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:oak_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_oak_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:oak_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_spruce_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:spruce_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_spruce_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:spruce_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_birch_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:birch_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_birch_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:birch_wood\"}}"
+            }
+        }, 
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_acacia_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:acacia_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_acacia_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:acacia_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_cherry_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:cherry_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_cherry_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:cherry_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_mangrove_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:mangrove_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:stripped_mangrove_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:mangrove_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:stripped_dark_oak_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:dark_oak_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:stripped_dark_oak_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:dark_oak_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:stripped_pale_oak_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:pale_oak_log\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:stripped_pale_oak_wood\"}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:pale_oak_wood\"}}"
+            }
+        } 
+    ]
+  }

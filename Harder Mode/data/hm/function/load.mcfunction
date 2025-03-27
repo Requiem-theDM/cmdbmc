@@ -3,6 +3,7 @@ scoreboard objectives add health health {"text":"\u2764","color":"dark_red"}
 scoreboard objectives setdisplay below_name health
 scoreboard objectives add deaths deathCount "Deaths"
 scoreboard objectives setdisplay list deaths
+scoreboard objectives add hunger food "Hunger"
 scoreboard objectives add daycount dummy "Current Day"
 scoreboard objectives add x dummy "X Position"
 scoreboard objectives add y dummy "Y Position"
@@ -10,7 +11,6 @@ scoreboard objectives add z dummy "Z position"
 scoreboard objectives add hm.clock dummy "Mob Ability Clock"
 scoreboard objectives add hm.darkness_luck dummy "Darkness Luck"
 scoreboard objectives add hm.darkness_debuff dummy "Darkness Debuff"
-scoreboard objectives add hm.regen dummy "Regeneration Flag"
 scoreboard objectives add hm.regen_cooldown dummy "Regeneration Cooldown"
 scoreboard objectives add hm.constants dummy
 scoreboard objectives add hm.math dummy
@@ -41,6 +41,9 @@ function hm:mobs/1t_clock
 # Schedule Darkness Ticking Functions
 function hm:darkness/1s_clock
 function hm:darkness/1t_clock
+
+# Schedule Player Health and Hunger Functions
+function hm:player_health_and_hunger/1t_clock
 
 # Display Reload Message
 execute as @a unless score @s hm.display.reload matches 0 run tellraw @s [{"text":""},{"text":"Harder Mode Enabled","color":"dark_red"},{"text":" [Click Here To Disable This Reload Message]","color":"dark_gray","clickEvent":{"action":"run_command","value":"/execute as @s run scoreboard players set @s hm.display.reload 0"}}]
